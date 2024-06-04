@@ -7,6 +7,7 @@
 <div id="quiz" />
 
 <script>
+const countries = {}
 async function populate() {
   const requestURL =
     "countries.json";
@@ -15,7 +16,7 @@ async function populate() {
   countries = await response.json();
 }
 populate();
-consloe.log(countries);
+console.log(countries);
 </script>
 </body>
 </html>
