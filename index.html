@@ -13,7 +13,7 @@ async function populate() {
   const request = new Request(requestURL);
 
   const response = await fetch(request);
-  const countries = await response.json();
+  array countries = await response.json();
   
 console.log(countries);
 console.log(countries[38].name);
