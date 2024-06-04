@@ -7,7 +7,7 @@
 <div id="quiz" />
 
 <script>
-async function populate() {
+//async function populate() {
   const requestURL =
     "https://menganito.github.io/countries.json";
   const request = new Request(requestURL);
@@ -15,8 +15,8 @@ async function populate() {
   const countries = await response.json();
 //  populateHeader(superHeroes);
 //  populateHeroes(superHeroes);
-}
-populate();
+//}
+//populate();
 console.log(countries);
 console.log(countries[38].name);
 //document.getElementById("quiz").innerHTML = countries[38].name;
