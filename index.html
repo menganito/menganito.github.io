@@ -17,7 +17,7 @@ console.log(message);
     "countries.json";
   const request = new Request(requestURL);
   const response = fetch(request);
-  countries = response.json();
+  countries = await response.json();
   var message = "async fetch done";
   console.log(message);
 }
