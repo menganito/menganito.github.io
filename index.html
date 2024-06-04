@@ -6,8 +6,6 @@
 <body>
 
 <script>
-  const countries = {};
-
 async function populate() {
   const requestURL =
     "https://menganito.github.io/countries.json";
@@ -15,11 +13,12 @@ async function populate() {
 
   const response = await fetch(request);
   countries = await response.json();
-  
+}
+populate()
+
 console.log(countries);
 console.log(countries[38].name);
 
-}
 </script>
 	
 <p id="demo"></p>
