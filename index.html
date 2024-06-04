@@ -16,12 +16,12 @@ async function populate() {
   const response = await fetch(request);
   countries = await response.json();
 }
-populate();
-
-  var message = "after populate";
-  console.log(message);
-console.log(countries[38].name);
-console.log(countries);
+function displaystuff() {
+  await populate();
+  console.log(countries[38].name);
+  console.log(countries);
+}  
+displaystuff();
 
 </script>
 </body>
