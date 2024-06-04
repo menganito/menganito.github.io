@@ -156,14 +156,14 @@
     {"name": "Sudan", "continent": "Africa"},
     {"name": "Algeria", "continent": "Africa"},
     {"name": "Morocco", "continent": "Africa"},
-    {"name": "Angola 	35,588,987 	36,684,203 	+3.08% 	Africa 	Middle Africa
-    {"name": "Ghana 	33,475,870 	34,121,985 	+1.93% 	Africa 	Western Africa
+    {"name": "Angola", "continent": "Africa"},
+    {"name": "Ghana", "continent": "Africa"},
     {"name": "Mozambique", "continent": "Africa"},
     {"name": "Madagascar", "continent": "Africa"},
-    {"name": "Ivory Coast 	28,160,543 	28,873,034 	+2.53% 	Africa 	Western Africa
-    {"name": "Cameroon 	27,914,537 	28,647,293 	+2.62% 	Africa 	Middle Africa
-    {"name": "Niger 	26,207,977 	27,202,843 	+3.80% 	Africa 	Western Africa
-    {"name": "Mali 	22,593,591 	23,293,699 	+3.10% 	Africa 	Western Africa
+    {"name": "Ivory Coast", "continent": "Africa"},
+    {"name": "Cameroon", "continent": "Africa"},
+    {"name": "Niger", "continent": "Africa"},
+    {"name": "Mali", "continent": "Africa"},
     {"name": "Burkina Faso", "continent": "Africa"},
     {"name": "Malawi", "continent": "Africa"},
     {"name": "Zambia", "continent": "Africa"},
