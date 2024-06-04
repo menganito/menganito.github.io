@@ -12,7 +12,6 @@ async function populate() {
   const requestURL =
     "https://menganito.github.io/countries.json";
   const request = new Request(requestURL);
-
   const response = await fetch(request);
   const countries = await response.json();
 }
@@ -21,7 +20,7 @@ populate()
 console.log(countries);
 console.log(countries[38].name);
 
-document.getElementById("quiz").innerHTML = countries[38].name;
+//document.getElementById("quiz").innerHTML = countries[38].name;
 
 </script>
 </body>
