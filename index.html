@@ -13,12 +13,12 @@ let countries = {}
 async function populate() {
   const requestURL = "countries.json";
   const request = new Request(requestURL);
-  const response = await fetch(request);
-  countries = await response.json();
-}
-populate().then((result) => {
+  const response = await fetch(request).then((result) => {
   console.log(result);
   });
+  countries = await response.json();
+}
+populate();
 
   var message = "after populate";
   console.log(message);
