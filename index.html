@@ -10,13 +10,13 @@
 
 <script>
 let countries = {}
-function populate() {
+async function populate() {
 var message = "async fetch started";
 console.log(message);
   const requestURL =
     "countries.json";
   const request = new Request(requestURL);
-  const response = fetch(request);
+  const response = await fetch(request);
   countries = await response.json();
   var message = "async fetch done";
   console.log(message);
