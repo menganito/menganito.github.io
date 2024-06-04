@@ -13,8 +13,11 @@ async function populate() {
     "https://menganito.github.io/countries.json";
   const request = new Request(requestURL);
   const response = await fetch(request);
-  const countries = await response.json();
+  countries = await response.json();
+  const message = "function ran"
+  console.log(message)
 }
+
 populate()
 
 console.log(countries);
