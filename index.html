@@ -12,8 +12,7 @@ async function populate() {
     "countries.json";
   const request = new Request(requestURL);
   const response = await fetch(request);
-  const countries = await response.json();
-  console.log(countries);
+  countries = await response.json();
 }
 populate();
 consloe.log(countries);
