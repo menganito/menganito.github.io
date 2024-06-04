@@ -4,26 +4,7 @@
 <title>Hello World</title>
 </head>
 <body>
-<div id="arrayOutput"></div>
-<script>
-	var allCountries = new Array();
-    
-function loadCountries() {
-    $.getJSON('countries.json', function (data) {
-        allCountries = data.quiz;
-    }).error(function(){
-            console.log('error: json not loaded');
-        });
-    };
-
-var currentCountry   = allCountries[38].name;
-var currentContinent = allCountries[38].continent; 
-document.getElementById("arrayOutput").innerHTML = 38;
-document.getElementById("arrayOutput").innerHTML = currentCountry;
-
-</script>
-
-
+	
 <p id="demo"></p>
 
 <script>
