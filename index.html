@@ -14,8 +14,8 @@ function loadCountries() {
     }).error(function(){
             console.log('error: json not loaded');
         });
-    });
-}
+    };
+
 var currentCountry   = allCountries[38].name;
 var currentContinent = allCountries[38].continent; 
 document.getElementById("arrayOutput").innerHTML = 38;
