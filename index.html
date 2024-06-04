@@ -17,9 +17,13 @@ fetchPromise.then((response) => {
   const jsonPromise = response.json();
   jsonPromise.then((countries) => {
     console.log(countries[38].name);
+	let countries = jsonPromise.then; 
   });
 });
 
+
+  var message = "after populate";
+  console.log(message);
 console.log(countries[38].name);
 console.log(countries);
 
