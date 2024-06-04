@@ -6,6 +6,7 @@
 <body>
 
 <script>
+  const countries = {};
 
 async function populate() {
   const requestURL =
@@ -13,7 +14,6 @@ async function populate() {
   const request = new Request(requestURL);
 
   const response = await fetch(request);
-  const countries = {};
   countries = await response.json();
   
 console.log(countries);
