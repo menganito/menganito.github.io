@@ -4,7 +4,9 @@
 <title>Hello World</title>
 </head>
 <body>
-<div id="quiz" />
+<header>
+
+</header>
 
 <script>
 let countries = {}
@@ -17,9 +19,13 @@ async function populate() {
 }
 populate();
 
-var html = (countries[38].name + " is in continent " + countries[38].continent);
+function getRandomNumber(countries) {
+    return Math.floor(Math.random() * countries.length);
+}
 
-document.getElementById("quiz").innerHTML = html;
+var i = getRandomNumber(countries);
+
+console.log(countries[i].name);
 
 </script>
 </body>
