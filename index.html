@@ -13,9 +13,10 @@ async function populate() {
   const request = new Request(requestURL);
   const response = await fetch(request);
   const countries = await response.json();
-  print(countries);
+  console.log(countries);
 }
 populate();
+consloe.log(countries);
 </script>
 </body>
 </html>
