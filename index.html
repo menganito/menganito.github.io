@@ -10,16 +10,18 @@
 
 <script>
 let countries = {}
-const fetchPromise = fetch(
-  "countries.json",
-);
-
-fetchPromise.then((response) => {
-  const jsonPromise = response.json();
-  jsonPromise.then((countries) => {
-    console.log(countries[38].name);
-  });
-});
+function populate() {
+var message = "async fetch started";
+console.log(message);
+  const requestURL =
+    "countries.json";
+  const request = new Request(requestURL);
+  const response = fetch(request);
+  countries = response.json();
+  var message = "async fetch done";
+  console.log(message);
+}
+populate();
 
 
   var message = "after populate";
