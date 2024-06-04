@@ -16,7 +16,10 @@ async function populate() {
   countries = await response.json();
 }
 populate();
-console.log(countries);
+
+var html = (countries[38].name + " is in continent " + countries[38].continent");
+document.getElementById("demo").innerHTML = html;
+
 </script>
 </body>
 </html>
