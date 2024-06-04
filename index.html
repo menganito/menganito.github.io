@@ -4,11 +4,29 @@
 <title>Hello World</title>
 </head>
 <body>
+
+<script>
+
+async function populate() {
+  const requestURL =
+    "https://menganito.github.io/countries.json";
+  const request = new Request(requestURL);
+
+  const response = await fetch(request);
+  const countries = await response.json();
+  
+console.log(countries);
+
+//  populateHeader(countries);
+//  populateCountries(countries);
+}
+</script>
 	
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML = 5 + 6;
+document.getElementById("demo").innerHTML = countries[38].name;
 
 console.log('Hello World');
 
