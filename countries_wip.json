@@ -149,58 +149,54 @@
     {"name": "Ethiopia", "continent": "Africa"},
     {"name": "Egypt", "continent": "Africa"},
     {"name": "DR Congo", "continent": "Africa"},
-    {"name": "Tanzania[b] 	65,497,748 	67,438,106 	+2.96% 	Africa 	Eastern Africa
-    {"name": "South Africa 	59,893,886 	60,414,495 	+0.87% 	Africa 	Southern Africa
-    {"name": "Kenya 	54,027,487 	55,100,587 	+1.99% 	Africa 	Eastern Africa
-    {"name": "Uganda 	47,249,585 	48,582,334 	+2.82% 	Africa 	Eastern Africa
-    {"name": "Sudan 	46,874,204 	48,109,006 	+2.63% 	Africa 	Northern Africa
-    {"name": "Algeria 	44,903,225 	45,606,481 	+1.57% 	Africa 	Northern Africa
-    {"name": "Morocco 	37,457,971 	37,840,044 	+1.02% 	Africa 	Northern Africa
+    {"name": "Tanzania", "continent": "Africa"},
+    {"name": "South Africa", "continent": "Africa"},
+    {"name": "Kenya", "continent": "Africa"},
+    {"name": "Uganda", "continent": "Africa"},
+    {"name": "Sudan", "continent": "Africa"},
+    {"name": "Algeria", "continent": "Africa"},
+    {"name": "Morocco", "continent": "Africa"},
     {"name": "Angola 	35,588,987 	36,684,203 	+3.08% 	Africa 	Middle Africa
     {"name": "Ghana 	33,475,870 	34,121,985 	+1.93% 	Africa 	Western Africa
-    {"name": "Mozambique 	32,969,519 	33,897,354 	+2.81% 	Africa 	Eastern Africa
-    {"name": "Madagascar 	29,611,714 	30,325,732 	+2.41% 	Africa 	Eastern Africa
+    {"name": "Mozambique", "continent": "Africa"},
+    {"name": "Madagascar", "continent": "Africa"},
     {"name": "Ivory Coast 	28,160,543 	28,873,034 	+2.53% 	Africa 	Western Africa
     {"name": "Cameroon 	27,914,537 	28,647,293 	+2.62% 	Africa 	Middle Africa
     {"name": "Niger 	26,207,977 	27,202,843 	+3.80% 	Africa 	Western Africa
     {"name": "Mali 	22,593,591 	23,293,699 	+3.10% 	Africa 	Western Africa
-    {"name": "Burkina Faso 	22,673,762 	23,251,485 	+2.55% 	Africa 	Western Africa
-    {"name": "Malawi 	20,405,317 	20,931,751 	+2.58% 	Africa 	Eastern Africa
-    {"name": "Zambia 	20,017,675 	20,569,738 	+2.76% 	Africa 	Eastern Africa
-    {"name": "Chad 	17,723,315 	18,278,568 	+3.13% 	Africa 	Middle Africa
-    {"name": "Somalia[h] 	17,597,511 	18,143,379 	+3.10% 	Africa 	Eastern Africa
-    {"name": "Senegal 	17,316,449 	17,763,163 	+2.58% 	Africa 	Western Africa
-    {"name": "Zimbabwe 	16,320,537 	16,665,409 	+2.11% 	Africa 	Eastern Africa
-    {"name": "Guinea 	13,859,341 	14,190,612 	+2.39% 	Africa 	Western Africa
-    {"name": "Rwanda 	13,776,698 	14,094,683 	+2.31% 	Africa 	Eastern Africa
-    {"name": "Benin 	13,352,864 	13,712,828 	+2.70% 	Africa 	Western Africa
-    {"name": "Burundi 	12,889,577 	13,238,559 	+2.71% 	Africa 	Eastern Africa
-    {"name": "Tunisia 	12,356,117 	12,458,223 	+0.83% 	Africa 	Northern Africa
-    {"name": "South Sudan 	10,913,164 	11,088,796 	+1.61% 	Africa 	Eastern Africa
-    {"name": "Togo 	8,848,699 	9,053,799 	+2.32% 	Africa 	Western Africa
-    {"name": "Sierra Leone 	8,605,718 	8,791,092 	+2.15% 	Africa 	Western Africa
-    {"name": "Libya 	6,812,341 	6,888,388 	+1.12% 	Africa 	Northern Africa
-    {"name": "Congo 	5,970,424 	6,106,869 	+2.29% 	Africa 	Middle Africa
-    {"name": "Central African Republic 	5,579,144 	5,742,316 	+2.92% 	Africa 	Middle Africa
-    {"name": "Liberia 	5,302,681 	5,418,377 	+2.18% 	Africa 	Western Africa
-    {"name": "Mauritania 	4,736,139 	4,862,989 	+2.68% 	Africa 	Western Africa
-    {"name": "Eritrea 	3,684,032 	3,748,902 	+1.76% 	Africa 	Eastern Africa
-    {"name": "Gambia 	2,705,992 	2,773,168 	+2.48% 	Africa 	Western Africa
-    {"name": "Botswana 	2,630,296 	2,675,353 	+1.71% 	Africa 	Southern Africa
-    {"name": "Namibia 	2,567,013 	2,604,172 	+1.45% 	Africa 	Southern Africa
-    {"name": "Gabon 	2,388,993 	2,436,567 	+1.99% 	Africa 	Middle Africa
-    {"name": "Lesotho 	2,305,826 	2,330,318 	+1.06% 	Africa 	Southern Africa
-    {"name": "Guinea-Bissau 	2,105,566 	2,150,842 	+2.15% 	Africa 	Western Africa
-    {"name": "Equatorial Guinea 	1,674,908 	1,714,672 	+2.37% 	Africa 	Middle Africa
-    {"name": "Mauritius 	1,299,469 	1,300,557 	+0.08% 	Africa 	Eastern Africa
-    {"name": "Eswatini 	1,201,671 	1,210,822 	+0.76% 	Africa 	Southern Africa
-    {"name": "Djibouti 	1,120,849 	1,136,455 	+1.39% 	Africa 	Eastern Africa
-    {"name": "Réunion (France) 	974,052 	981,796 	+0.80% 	Africa 	Eastern Africa
-    {"name": "Comoros 	836,774 	852,075 	+1.83% 	Africa 	Eastern Africa
-    {"name": "Cape Verde 	593,150 	598,682 	+0.93% 	Africa 	Western Africa
-    {"name": "Western Sahara (disputed)[u] 	575,986 	587,259 	+1.96% 	Africa 	Northern Africa
-    {"name": "Mayotte (France) 	326,101 	335,995 	+3.03% 	Africa 	Eastern Africa
-    {"name": "São Tomé and Príncipe 	227,380 	231,856 	+1.97% 	Africa 	Middle Africa
-    {"name": "Seychelles 	107,119 	107,660 	+0.51% 	Africa 	Eastern Africa
-    {"name": "Saint Helena (United Kingdom)[w] 	5,374 	5,314 	−1.12% 	Africa 	Western Africa
+    {"name": "Burkina Faso", "continent": "Africa"},
+    {"name": "Malawi", "continent": "Africa"},
+    {"name": "Zambia", "continent": "Africa"},
+    {"name": "Chad", "continent": "Africa"},
+    {"name": "Somalia", "continent": "Africa"},
+    {"name": "Senegal", "continent": "Africa"},
+    {"name": "Zimbabwe", "continent": "Africa"},
+    {"name": "Guinea", "continent": "Africa"},
+    {"name": "Rwanda", "continent": "Africa"},
+    {"name": "Benin", "continent": "Africa"},
+    {"name": "Burundi", "continent": "Africa"},
+    {"name": "Tunisia", "continent": "Africa"},
+    {"name": "South Sudan", "continent": "Africa"},
+    {"name": "Togo", "continent": "Africa"},
+    {"name": "Sierra Leone", "continent": "Africa"},
+    {"name": "Libya", "continent": "Africa"},
+    {"name": "Congo", "continent": "Africa"},
+    {"name": "Central African Republic", "continent": "Africa"},
+    {"name": "Liberia", "continent": "Africa"},
+    {"name": "Mauritania", "continent": "Africa"},
+    {"name": "Eritrea", "continent": "Africa"},
+    {"name": "Gambia", "continent": "Africa"},
+    {"name": "Botswana", "continent": "Africa"},
+    {"name": "Namibia", "continent": "Africa"},
+    {"name": "Gabon", "continent": "Africa"},
+    {"name": "Lesotho", "continent": "Africa"},
+    {"name": "Guinea-Bissau", "continent": "Africa"},
+    {"name": "Equatorial Guinea", "continent": "Africa"},
+    {"name": "Mauritius", "continent": "Africa"},
+    {"name": "Eswatini", "continent": "Africa"},
+    {"name": "Djibouti", "continent": "Africa"},
+    {"name": "Comoros", "continent": "Africa"},
+    {"name": "Cape Verde", "continent": "Africa"},
+    {"name": "São Tomé and Príncipe", "continent": "Africa"},
+    {"name": "Seychelles", "continent": "Africa"},
 ]	
