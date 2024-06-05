@@ -22,7 +22,9 @@ async function populate() {
   const request = new Request(requestURL);
   const response = await fetch(request);
   countries = await response.json();
+  var element;
   element = document.getElementById("start");
+  console.log(element);
 if (element) {
     element.innerHTML = "<button type="button" id="start">Štart!</button>";
   };
