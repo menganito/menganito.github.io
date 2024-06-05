@@ -32,10 +32,11 @@ populate();
 
 const startButton = document.getElementById("start");
 startButton.addEventListener("click", function() {
-  var gameQuestion = '<img src="https://commons.wikimedia.org/wiki/File:Flag_of_' + countries[0].name +'.svg"></img><p/>Krajina je <bold>' + countries[0].name + '</b>. V ktorom kontinente sa nachádza?</p><input type="text">';
+  var gameQuestion = '<p/>Krajina je <span id="country" class="bold">' + countries[0].name + '</span><p> V ktorom kontinente sa nachádza?</p><input name="answer" type="text">';
   document.getElementById("game").innerHTML = gameQuestion;
-  console.log(countries.lenght);
-});
+  var answer = document.getElementById("answer")[0].value;
+  console.log(answer)
+  });
 
 
 </script>
