@@ -28,13 +28,14 @@ async function populate() {
   countries.sort(function(){return 0.5 - Math.random()});
 }
 populate();
-function gameQuestion() {
-  const startButton = document.getElementById("start");
-  startButton.addEventListener("click", function() {
-    document.getElementById("demo").innerHTML = countries[0].name;
-  });
-}
-gameQuestion();
+
+
+const startButton = document.getElementById("start");
+startButton.addEventListener("click", function() {
+  document.getElementById("demo").innerHTML = countries[0].name;
+  console.log(countries.lenght);
+});
+
 
 </script>
 </body>
