@@ -7,17 +7,20 @@
 <header>
 <h1>Click that country!</h1>
 </header>
-<div id="game">
+
+<div id="intro">
 <p>Ako dobre poznáš krajiny sveta? </p>
 <p>Čo všetko o nich vieš?</p>
 <p>Zisti to v tejto hre: Ku každej krajine vpíš do políčka na odpoveď kontinent na ktorom sa nachádza.</p>
 <p>Keď si pripravený, klikni</p>
-<button type="button" id="start" disabled>Štart!</button>
-<div id="answerZone" hidden>
-<input type="text"><input type="submit" id="answer" value="Odpovedať">'
-</div>
+<button type="button" id="start" disabled onclick="start();">Štart!</button>
 </div>
 
+<div id="game" hidden>
+<p>Krajina je <span id="country" class="bold"></span></p>
+<p>V ktorom kontinente sa nachádza?</p>;
+<input type="text"><input type="submit" id="answer" value="Odpovedať">'
+</div>
 
 <script>
 let countries = {}
@@ -28,21 +31,27 @@ async function populate() {
   countries = await response.json();
   var button = document.getElementById("start");
   button.disabled = false;
-  var div=document.getElementById("answerZone");
-  div.hidden=false;
   //let's shuffle the list
   countries.sort(function(){return 0.5 - Math.random()});
 }
+function start() {
+  var div = document.getElementById("game");
+  div.hidden = false;
+  div = document.getElementById("intro");
+  div.hidden = true;
+}  
+  
 populate();
-
-
 const startButton = document.getElementById("start");
-startButton.addEventListener("click", function() {
-  var gameQuestion = '<p/>Krajina je <span id="country" class="bold">' + countries[0].name + '</span><p> V ktorom kontinente sa nachádza?</p>;
-  document.getElementById("game").innerHTML = gameQuestion;
-  var answer = document.getElementById("answer")[0].value;
-  console.log(answer)
-  });
+
+
+
+//startButton.addEventListener("click", function() {
+//  var gameQuestion = '<p/>Krajina je <span id="country" class="bold">' + countries[0].name + '</span><p> V ktorom kontinente sa nachádza?</p>;
+//  document.getElementById("game").innerHTML = gameQuestion;
+//  var answer = document.getElementById("answer")[0].value;
+//  console.log(answer)
+//  });
 
 
 </script>
