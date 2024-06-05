@@ -32,7 +32,7 @@ populate();
 
 const startButton = document.getElementById("start");
 startButton.addEventListener("click", function() {
-  var gameQuestion = '<p/>Krajina je <span id="country" class="bold">' + countries[0].name + '</span><p> V ktorom kontinente sa nachádza?</p><input name="answer" type="text">';
+  var gameQuestion = '<p/>Krajina je <span id="country" class="bold">' + countries[0].name + '</span><p> V ktorom kontinente sa nachádza?</p><input id="answer" type="text"><input type="submit" value="Odpovedať">';
   document.getElementById("game").innerHTML = gameQuestion;
   var answer = document.getElementById("answer")[0].value;
   console.log(answer)
