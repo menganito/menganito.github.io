@@ -5,8 +5,15 @@
 </head>
 <body>
 <header>
-
+<h1>Click that nation!</h1>
 </header>
+<div id="game">
+<p>Ako dobre poznáš krajiny sveta? </p>
+<p>Čo všetko o nich vieš?</p>
+<p>Zistzi to v tejto hre: Ku každej krajine vpíš do políčka na odpoveď kontinent na ktorom sa nachádza.</p>
+<p>Keď si pripravený, klikni</p>
+<button type="button" id="start" disabled="disabled"> štart!</button>
+
 
 <script>
 let countries = {}
@@ -17,9 +24,9 @@ async function populate() {
   countries = await response.json();
 }
 function displaystuff() {
-  await populate();
   console.log(countries[38].name);
   console.log(countries);
+  
 }  
 displaystuff();
 
