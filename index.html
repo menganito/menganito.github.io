@@ -26,12 +26,13 @@ async function populate() {
   button.disabled = false;
 }
 populate();
-function displaystuff() {
-  console.log(countries[38].name);
-  console.log(countries);
+function gameQuestion() {
   
-}  
-//displaystuff();
+  const startButton = document.getElementById("start");
+  startButton.addEventListener("click", function() {
+  console.log(countries.length);
+}
+gameQuestion();
 
 </script>
 </body>
