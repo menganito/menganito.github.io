@@ -43,7 +43,8 @@ function start() {
 }
 function game() {
 for (let question = 0; question < countries.length; question++) {
-document.getElementById("country").innerhtml = countries[question].name
+document.getElementById("country").innerhtml = countries[question].name;
+console.log(question);
 }
 }
 populate();
