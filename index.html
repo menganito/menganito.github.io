@@ -25,7 +25,7 @@
 <script>
 //let countries = {}
 async function populate() {
-  const requestURL = "countries.json";
+  const requestURL = "countries2.json";
   const request = new Request(requestURL);
   const response = await fetch(request);
   countries = await response.json();
