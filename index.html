@@ -24,13 +24,15 @@ async function populate() {
   countries = await response.json();
   var button = document.getElementById("start");
   button.disabled = false;
+  //let's shuffle the list
+  countries.sort(function(){return 0.5 - Math.random()});
 }
 populate();
 function gameQuestion() {
-  
+  document.getElementById("demo").innerHTML = countries[0].name;
   const startButton = document.getElementById("start");
   startButton.addEventListener("click", function() {
-  console.log(countries.length);
+    console.log(countries.length);
   });
 }
 gameQuestion();
