@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hello World</title>
+<title>Click that country!</title>
 </head>
 <body>
 <header>
-<h1>Click that nation!</h1>
+<h1>Click that country!</h1>
 </header>
 <div id="game">
 <p>Ako dobre poznáš krajiny sveta? </p>
 <p>Čo všetko o nich vieš?</p>
 <p>Zistzi to v tejto hre: Ku každej krajine vpíš do políčka na odpoveď kontinent na ktorom sa nachádza.</p>
 <p>Keď si pripravený, klikni</p>
-<button type="button" id="start" disabled="disabled"> štart!</button>
+<button type="button" id="start" disabled="disabled">Štart!</button>
 
 
 <script>
@@ -22,6 +22,10 @@ async function populate() {
   const request = new Request(requestURL);
   const response = await fetch(request);
   countries = await response.json();
+  element = document.getElementById("start");
+if (element) {
+    element.innerHTML = "<button type="button" id="start">Štart!</button>";
+}
 }
 function displaystuff() {
   console.log(countries[38].name);
