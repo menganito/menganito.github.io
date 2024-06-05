@@ -29,11 +29,13 @@ async function populate() {
   const request = new Request(requestURL);
   const response = await fetch(request);
   countries = await response.json();
+  //at the beginning, the button is disabled, we can enable it now that the json is loaded.
   var button = document.getElementById("start");
   button.disabled = false;
   //let's shuffle the list
   countries.sort(function(){return 0.5 - Math.random()});
 }
+//function start is called by the start button
 function start() {
   var div = document.getElementById("game");
   div.hidden = false;
@@ -42,17 +44,6 @@ function start() {
 }  
   
 populate();
-//const startButton = document.getElementById("start");
-
-
-
-//startButton.addEventListener("click", function() {
-//  var gameQuestion = '<p/>Krajina je <span id="country" class="bold">' + countries[0].name + '</span><p> V ktorom kontinente sa nachádza?</p>;
-//  document.getElementById("game").innerHTML = gameQuestion;
-//  var answer = document.getElementById("answer")[0].value;
-//  console.log(answer)
-//  });
-
 
 </script>
 </body>
