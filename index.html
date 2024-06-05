@@ -10,7 +10,7 @@
 <div id="game">
 <p>Ako dobre poznáš krajiny sveta? </p>
 <p>Čo všetko o nich vieš?</p>
-<p>Zistzi to v tejto hre: Ku každej krajine vpíš do políčka na odpoveď kontinent na ktorom sa nachádza.</p>
+<p>Zisti to v tejto hre: Ku každej krajine vpíš do políčka na odpoveď kontinent na ktorom sa nachádza.</p>
 <p>Keď si pripravený, klikni</p>
 <button type="button" id="start" disabled="disabled">Štart!</button>
 
@@ -29,12 +29,13 @@ if (element) {
     element.innerHTML = '<button type="button" id="start">Štart!</button>';
   };
 }
+populate();
 function displaystuff() {
   console.log(countries[38].name);
   console.log(countries);
   
 }  
-displaystuff();
+//displaystuff();
 
 </script>
 </body>
