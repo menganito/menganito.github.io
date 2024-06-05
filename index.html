@@ -37,13 +37,14 @@ async function populate() {
 }
 //function start is called by the start button
 function start() {
-  var div = document.getElementById("game");
-  div.hidden = false;
+  document.getElementById("game").hidden = false;
   document.getElementById("intro").hidden = true;
+  game();
 }
 function game() {
-
-
+for (let question = 0; step < countries.length; step++) {
+document.getElementById("country").innerhtml = countries[question].name
+}
 }
 populate();
 
