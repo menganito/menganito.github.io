@@ -29,10 +29,9 @@ async function populate() {
 }
 populate();
 function gameQuestion() {
-  document.getElementById("demo").innerHTML = countries[0].name;
   const startButton = document.getElementById("start");
   startButton.addEventListener("click", function() {
-    console.log(countries.length);
+    document.getElementById("demo").innerHTML = countries[0].name;
   });
 }
 gameQuestion();
