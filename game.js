@@ -41,7 +41,3 @@ function getAnswer() {
   game();
 }
 populate();
-
-
-<p><span id="score"></span> z <span id="possibleScore"></span> bodov. </p>
-<p>Celkove je <span id="topscore"></span> otázok. 
