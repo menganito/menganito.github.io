@@ -20,7 +20,7 @@ function start() {
   document.getElementById("intro").hidden = true;
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
-  document.getElementById("possibleScore").innerHTML = topScore;
+  document.getElementById("topScore").innerHTML = topScore;
   game();
 }
 function game() {
@@ -34,6 +34,7 @@ function getAnswer() {
 	console.log(score);
   }
   possibleScore++
+  console.log(possibleScore)
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("possibleScore").innerHTML = topScore;
