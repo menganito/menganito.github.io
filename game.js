@@ -22,7 +22,8 @@ function game() {
     console.log(countries[nextQuestion].name);
   }
 function getAnswer() {
-  
+  answer = document.getElementById('answer').value;
+  console.log(answer);
   nextQuestion++;
   game();
 }
