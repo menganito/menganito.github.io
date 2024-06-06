@@ -20,11 +20,12 @@
 <p id="flag"></p>
 <p>Krajina je <span id="country" class="bold"></span></p>
 <p>V ktorom kontinente sa nachádza?</p>
-<input type="text"><input type="submit" id="answer" value="Odpovedať">
+<input id="answer" type="text"><input onClick="getAnswer()" type="submit" value="Odpovedať">
 </div>
 
 <script>
 //let countries = {}
+let nextQuestion = 0
 async function populate() {
   const requestURL = "countries2.json";
   const request = new Request(requestURL);
@@ -43,11 +44,13 @@ function start() {
   game();
 }
 function game() {
-for (let question = 0; question < countries.length - 10; question++) {
-document.getElementById("country").innerhtml = countries[question].name;
-document.getElementById("flag").innerhtml = '<img src="https://flagsapi.com/' + countries[question].code + '/flat/64.png"></img>';
-console.log(countries[question].name);
+    document.getElementById("country").innerhtml = countries[question].name;
+    document.getElementById("flag").innerhtml = '<img src="https://flagsapi.com/' + countries[question].code + '/flat/64.png"></img>';
+    console.log(countries[question].name);
+  }
 }
+function getAnswer() {
+  nextQuestion++;
 }
 populate();
 
