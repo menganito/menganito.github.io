@@ -3,14 +3,14 @@ img {
   border-radius: 18px;
 }
 
-img.wrong {
+img.incorrect {
   border: 4px solid Red;
-  width: 200;
+  width: 120px;
 }
 
-img.right {
+img.correct {
   border: 4px solid LightGreen;
-  width: 200;
+  width: 120px;
 }
 
 
