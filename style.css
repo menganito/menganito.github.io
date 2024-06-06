@@ -4,13 +4,17 @@ img {
 }
 
 img.incorrect {
-  border: 4px solid Red;
+  border: 2px solid Red;
   width: 120px;
+  border-radius: 4px;
+
 }
 
 img.correct {
-  border: 4px solid LightGreen;
+  border: 2px solid LightGreen;
   width: 120px;
+  border-radius: 4px;
+
 }
 
 
@@ -26,5 +30,5 @@ img.correct {
 }
 
 .right {
-  width: 75%;
+  width: 70%;
 }
