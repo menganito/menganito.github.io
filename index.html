@@ -44,8 +44,8 @@ function start() {
   game();
 }
 function game() {
-    document.getElementById("country").innerhtml = countries[nextQuestion].name;
-    document.getElementById("flag").innerhtml = '<img src="https://flagsapi.com/' + countries[nextQuestion].code + '/flat/64.png"></img>';
+    document.getElementById("country").innerHTML = countries[nextQuestion].name;
+    document.getElementById("flag").innerHTML = '<img src="https://flagsapi.com/' + countries[nextQuestion].code + '/flat/64.png"></img>';
     console.log(countries[nextQuestion].name);
   }
 function getAnswer() {
