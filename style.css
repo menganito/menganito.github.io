@@ -11,6 +11,7 @@ img {
 
 .left {
   width: 25%;
+  overflow-y: scroll;
 }
 
 .right {
