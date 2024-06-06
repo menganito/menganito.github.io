@@ -3,10 +3,13 @@ img {
   border-radius: 18px;
 }
 
+.wrong {
+  border: 8px solid Red;
+}
+
 .column {
   float: left;
   padding: 10px;
-
 }
 
 .left {
