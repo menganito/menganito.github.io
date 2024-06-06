@@ -1,4 +1,6 @@
 let nextQuestion = 0;
+let topscore = 0; 
+let score = 0;
 async function populate() {
   const requestURL = "countries2.json";
   const request = new Request(requestURL);
@@ -12,18 +14,21 @@ async function populate() {
 }
 //function start is called by the start button
 function start() {
+  topscore = countries.lenght;
   document.getElementById("game").hidden = false;
   document.getElementById("intro").hidden = true;
   game();
 }
 function game() {
- //   document.getElementById("country").innerHTML = countries[nextQuestion].name;
     document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
-    console.log(countries[nextQuestion].name);
   }
+//function is called from the answer button
 function getAnswer() {
   answer = document.getElementById('answer').value;
-  console.log(answer);
+  if (answer === countries[nextQuestion].name) {
+    score++;
+	console.log(score);
+  }  
   nextQuestion++;
   game();
 }
