@@ -18,9 +18,9 @@
 </div>
 
 <div id="game" hidden>
-<p id="flag"><img src="flags-svg/sk.svg" width="500"></img></p>
-<p>Krajina je <span id="country" class="bold">krajina</span></p>
-<p>V ktorom kontinente sa nachádza?</p>
+<p id="flag"><img src="flags-svg/sk.svg" height="330"></img></p>
+<p>Ktorej krajine patrí táto vlajka?</p>
+
 <input id="answer" type="text"><input onClick="getAnswer()" type="submit" value="Odpovedať">
 </div>
 
@@ -50,6 +50,7 @@ function game() {
     console.log(countries[nextQuestion].name);
   }
 function getAnswer() {
+  
   nextQuestion++;
   game();
 }
