@@ -1,5 +1,4 @@
 let nextQuestion = 0;
-let topScore = 0; 
 let score = 0;
 let possibleScore = 0;
 async function populate() {
@@ -15,13 +14,12 @@ async function populate() {
 }
 //function start is called by the start button
 function start() {
-  topscore = countries.lenght;
   document.getElementById("score_div").hidden = false;
   document.getElementById("game").hidden = false;
   document.getElementById("intro").hidden = true;
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
-  document.getElementById("topScore").innerHTML = topScore;
+  document.getElementById("topScore").innerHTML = countries.lenght;
   game();
 }
 function game() {
@@ -38,7 +36,6 @@ function getAnswer() {
   console.log(possibleScore)
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
-  document.getElementById("possibleScore").innerHTML = topScore;
   nextQuestion++;
   game();
 }
