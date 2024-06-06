@@ -16,6 +16,7 @@ async function populate() {
 //function start is called by the start button
 function start() {
   topscore = countries.lenght;
+  document.getElementById("score_div").hidden = false;
   document.getElementById("game").hidden = false;
   document.getElementById("intro").hidden = true;
   document.getElementById("score").innerHTML = score;
