@@ -23,8 +23,8 @@ img.correct {
 
 .left {
   width: 25%;
-  height: 100%;
-  overflow-y: scroll;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .right {
