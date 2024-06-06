@@ -3,8 +3,9 @@ img {
   border-radius: 18px;
 }
 
-.wrong {
+img.wrong {
   border: 8px solid Red;
+  width: 100;
 }
 
 .column {
