@@ -36,6 +36,7 @@ function getAnswer() {
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("topScore").innerHTML = countries.lenght - possibleScore;
+  console.log(countries.lenght);
   nextQuestion++;
   game();
 }
