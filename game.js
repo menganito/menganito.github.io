@@ -1,6 +1,7 @@
 let nextQuestion = 0;
-let topscore = 0; 
+let topScore = 0; 
 let score = 0;
+let possibleScore = 0;
 async function populate() {
   const requestURL = "countries2.json";
   const request = new Request(requestURL);
@@ -17,6 +18,9 @@ function start() {
   topscore = countries.lenght;
   document.getElementById("game").hidden = false;
   document.getElementById("intro").hidden = true;
+  document.getElementById("score").innerHTML = score;
+  document.getElementById("possibleScore").innerHTML = possibleScore;
+  document.getElementById("possibleScore").innerHTML = topScore;
   game();
 }
 function game() {
@@ -28,8 +32,16 @@ function getAnswer() {
   if (answer === countries[nextQuestion].name) {
     score++;
 	console.log(score);
-  }  
+  }
+  possibleScore++
+  document.getElementById("score").innerHTML = score;
+  document.getElementById("possibleScore").innerHTML = possibleScore;
+  document.getElementById("possibleScore").innerHTML = topScore;
   nextQuestion++;
   game();
 }
 populate();
+
+
+<p><span id="score"></span> z <span id="possibleScore"></span> bodov. </p>
+<p>Celkove je <span id="topscore"></span> otázok. 
