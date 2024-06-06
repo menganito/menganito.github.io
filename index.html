@@ -8,7 +8,12 @@
 <header>
 <h1>Click that country!</h1>
 </header>
-
+<div class="row">
+<div class="column let">
+<div id="score">
+</div>
+</div>
+<div class="column right">
 <div id="intro">
 <p>Ako dobre poznáš krajiny sveta? </p>
 <p>Čo všetko o nich vieš?</p>
@@ -16,12 +21,13 @@
 <p>Keď si pripravený, klikni</p>
 <button type="button" id="start" disabled onclick="start();">Štart!</button>
 </div>
-
 <div id="game" hidden>
 <p id="flag"><img src="flags-svg/sk.svg" height="330"></img></p>
 <p>Ktorej krajine patrí táto vlajka?</p>
 
 <input id="answer" type="text"><input onClick="getAnswer()" type="submit" value="Odpovedať">
+</div>
+</div>
 </div>
 
 <script>

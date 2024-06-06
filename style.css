@@ -2,3 +2,17 @@ img {
   border: 8px solid #555;
   border-radius: 18px;
 }
+
+.column {
+  float: left;
+  padding: 10px;
+
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
