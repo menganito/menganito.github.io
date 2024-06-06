@@ -4,9 +4,15 @@ img {
 }
 
 img.wrong {
-  border: 8px solid Red;
-  width: 100;
+  border: 4px solid Red;
+  width: 50;
 }
+
+img.right {
+  border: 4px solid Green;
+  width: 50;
+}
+
 
 .column {
   float: left;
