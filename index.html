@@ -46,7 +46,7 @@ function start() {
 }
 function game() {
     document.getElementById("country").innerHTML = countries[nextQuestion].name;
-    document.getElementById("flag").innerHTML = '<img src="https://flagsapi.com/' + countries[nextQuestion].code + '/flat/64.png"></img>';
+    document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code + '.svg" width="500"></img>';
     console.log(countries[nextQuestion].name);
   }
 function getAnswer() {
