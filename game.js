@@ -37,9 +37,9 @@ function getAnswer() {
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("topScore").innerHTML = countries.length - possibleScore;
   if (guessed === "right") {
-    document.getElementById("score_div").innerHTML += "✔ " + countries[nextQuestion].name;
+    document.getElementById("score_div").innerHTML += '<img class="correct" src="flags-svg/' + countries[nextQuestion].code + '.svg"> ✔ ' + countries[nextQuestion].name;
 	} else {
-	document.getElementById("score_div").innerHTML += "❌ " + countries[nextQuestion].name;
+	document.getElementById("score_div").innerHTML += '<img class="incorrect" src="flags-svg/' + countries[nextQuestion].code + '.svg"> ❌ ' + countries[nextQuestion].name;
 	}
   nextQuestion++;
   game();
