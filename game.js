@@ -26,11 +26,11 @@ function game() {
   }
 //function is called from the answer button
 function getAnswer() {
-	var guessed = wrong;
+	var guessed = "wrong";
   answer = document.getElementById('answer').value;
   if (answer === countries[nextQuestion].name) {
     score++;
-	guessed = right;
+	guessed = "right";
 	}
   possibleScore++
   document.getElementById("score").innerHTML = score;
