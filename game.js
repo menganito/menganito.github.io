@@ -9,7 +9,27 @@ async function populate() {
   //at the beginning, the button is disabled, we can enable it now that the json is loaded.
   document.getElementById("start").disabled = false;
   //let's shuffle the list
-  countries.sort(function(){return 0.5 - Math.random()});
+  //this was a bad method.
+  //countries.sort(function(){return 0.5 - Math.random()});
+  shuffle(countries);
+}
+//this is called by the pupulate function
+function shuffle(array) {
+  var m = array.length, t, i;
+
+  // While there remain elements to shuffle…
+  while (m) {
+
+    // Pick a remaining element…
+    i = Math.floor(Math.random() * m--);
+
+    // And swap it with the current element.
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+  }
+
+  return array;
 }
 //function start is called by the start button
 function start() {
