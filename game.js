@@ -61,7 +61,7 @@ function getAnswer() {
     } else {
     document.getElementById("score_counter").innerHTML += '<img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + "<br/>";
     }
-  document.getElementById("score_div").scrollTop = objDiv.scrollHeight;
+  document.getElementById("score_div").scrollTop = document.getElementById("score_div").scrollHeight;
   nextQuestion++;
   game();
 }
