@@ -26,15 +26,21 @@ function game() {
   }
 //function is called from the answer button
 function getAnswer() {
+	var guessed = wrong;
   answer = document.getElementById('answer').value;
   if (answer === countries[nextQuestion].name) {
     score++;
-	console.log(score);
-  }
+	guessed = right;
+	}
   possibleScore++
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("topScore").innerHTML = countries.length - possibleScore;
+  if (guessed === "right") {
+    document.getElementById("score").innerHTML += ✔ countries[nextQuestion].name;
+	} else {
+	document.getElementById("score").innerHTML += ❌ countries[nextQuestion].name;
+	}
   nextQuestion++;
   game();
 }
