@@ -18,7 +18,7 @@ function start() {
   document.getElementById("intro").hidden = true;
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
-  document.getElementById("topScore").innerHTML = countries.lenght;
+  document.getElementById("topScore").innerHTML = countries.length;
   game();
 }
 function game() {
@@ -32,11 +32,9 @@ function getAnswer() {
 	console.log(score);
   }
   possibleScore++
-  console.log(possibleScore)
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
-  document.getElementById("topScore").innerHTML = countries.lenght - possibleScore;
-  console.log(countries.lenght);
+  document.getElementById("topScore").innerHTML = countries.length - possibleScore;
   nextQuestion++;
   game();
 }
