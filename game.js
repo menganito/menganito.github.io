@@ -37,9 +37,9 @@ function getAnswer() {
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("topScore").innerHTML = countries.length - possibleScore;
   if (guessed === "right") {
-    document.getElementById("score").innerHTML += "✔ " + countries[nextQuestion].name;
+    document.getElementById("score_div").innerHTML += "✔ " + countries[nextQuestion].name;
 	} else {
-	document.getElementById("score").innerHTML += "❌ " + countries[nextQuestion].name;
+	document.getElementById("score_div").innerHTML += "❌ " + countries[nextQuestion].name;
 	}
   nextQuestion++;
   game();
