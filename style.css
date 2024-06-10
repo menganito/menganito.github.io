@@ -16,12 +16,15 @@ img.correct {
 }
 
 div.incorrect {
-  background-color: tomato
-
+  background-color: tomato;
+  border-radius: 4px;
+  padding-bottom: 4px
 }
 
 div.correct {
-  background-color: yellowgreen
+  background-color: yellowgreen;
+  border-radius: 4px;
+  padding-bottom: 4px
 }
 
 .column {
