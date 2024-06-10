@@ -55,10 +55,11 @@ function getAnswer() {
   document.getElementById("topScore").innerHTML = countries.length - possibleScore;
   if (guessed === "right") {
 	let html = '<img class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/>";
+    document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
         } else {
     let html = '<img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + "<br/>";
+	document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
     }
-  document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
   document.getElementById("score_div").scrollTop = document.getElementById("score_div").scrollHeight;
   nextQuestion++;
   game();
