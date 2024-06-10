@@ -15,6 +15,14 @@ img.correct {
   border-radius: 4px;
 }
 
+div.incorrect {
+  background-color: tomato
+
+}
+
+div.correct {
+  background-color: yellowgreen
+}
 
 .column {
   float: left;
