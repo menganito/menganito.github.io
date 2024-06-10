@@ -8,9 +8,6 @@ async function populate() {
   countries = await response.json();
   //at the beginning, the button is disabled, we can enable it now that the json is loaded.
   document.getElementById("start").disabled = false;
-  //let's shuffle the list
-  //this was a bad method.
-  //countries.sort(function(){return 0.5 - Math.random()});
   shuffle(countries);
 }
 //this is called by the pupulate function
@@ -57,10 +54,11 @@ function getAnswer() {
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("topScore").innerHTML = countries.length - possibleScore;
   if (guessed === "right") {
-    document.getElementById("score_counter").innerHTML += '<img class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/>";
-    } else {
-    document.getElementById("score_counter").innerHTML += '<img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + "<br/>";
+	let html = '<img class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/>";
+        } else {
+    let html = '<img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + "<br/>";
     }
+  document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
   document.getElementById("score_div").scrollTop = document.getElementById("score_div").scrollHeight;
   nextQuestion++;
   game();
