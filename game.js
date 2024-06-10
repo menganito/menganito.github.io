@@ -57,7 +57,7 @@ function getAnswer() {
 	let html = '<div class="correct"><img class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/></div>";
     document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
         } else {
-    let html = '<div class="incorrect"><img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + "(you guessed:" guessed ")<br/></div>";
+    let html = '<div class="incorrect"><img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + "(you guessed:" + guessed + ")<br/></div>";
 	document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
     }
   //document.getElementById("score_div").scrollTop = document.getElementById("score_div").scrollHeight;
