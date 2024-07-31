@@ -40,7 +40,7 @@ function start() {
 }
 function game() {
     document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
-	var map = L.map('map').setView([0, 0], 3);	
+	//var map = L.map('map').setView([0, 0], 3);	
   }
 //function is called from the answer button
 function getAnswer() {
