@@ -38,8 +38,12 @@ function start() {
   document.getElementById("topScore").innerHTML = countries.length;
   game();
 }
+function buildMap() {
+	var map = L.map('map').setView([0, 0], 3);
+	}
 function game() {
     document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
+	buildMap();
   }
 //function is called from the answer button
 function getAnswer() {
