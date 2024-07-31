@@ -35,11 +35,12 @@ function start() {
   document.getElementById("intro").hidden = true;
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
-  document.getElementById("topScore").innerHTML = countries.length;
+  document.getElementById("remainingQuestions").innerHTML = countries.length;
   game();
 }
 function game() {
     document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
+	var map = L.map('map').setView([0, 0], 3);	
   }
 //function is called from the answer button
 function getAnswer() {
@@ -48,11 +49,11 @@ function getAnswer() {
   if (answer === countries[nextQuestion].name) {
     score++;
 	guessed = "right";
-	}
+  }
   possibleScore++
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
-  document.getElementById("topScore").innerHTML = countries.length - possibleScore;
+  document.getElementById("remainingQuestions").innerHTML = countries.length - possibleScore;
   if (guessed === "right") {
 	let html = '<div class="correct"><img class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/></div>";
     document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
@@ -62,6 +63,10 @@ function getAnswer() {
     }
   //document.getElementById("score_div").scrollTop = document.getElementById("score_div").scrollHeight;
   nextQuestion++;
+function endGame() {
+  
+  }
+
   game();
 }
 populate();
