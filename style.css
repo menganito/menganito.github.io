@@ -15,6 +15,10 @@ img.correct {
   border-radius: 4px;
 }
 
+img.flag {
+  height: 200px;
+}
+
 div.incorrect {
   background-color: tomato;
   border-radius: 4px;
