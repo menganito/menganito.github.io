@@ -33,6 +33,7 @@ function start() {
   document.getElementById("score_div").hidden = false;
   document.getElementById("game").hidden = false;
   document.getElementById("intro").hidden = true;
+  document.getElementById("map").hidden = true;
   document.getElementById("score").innerHTML = score;
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("topScore").innerHTML = countries.length;
@@ -44,6 +45,9 @@ function buildMap() {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
+  document.getElementById("game").hidden = true;
+  document.getElementById("map").hidden = false;
+
 	}
 function game() {
     document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
