@@ -70,8 +70,8 @@ function getAnswer() {
     let html = '<div class="incorrect"><img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + " (you guessed: " + answer + ")<br/></div>";
 	document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
     }
-  //document.getElementById("score_div").scrollTop = document.getElementById("score_div").scrollHeight;
   nextQuestion++;
-  game();
+  drawMap();
+  //game();
 }
 populate();
