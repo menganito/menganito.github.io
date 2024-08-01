@@ -43,6 +43,7 @@ div.correct {
 }
 
 #map {
-  height: 180px; 
+  height: 360px; 
   width: 100%;
+  background-color: teal;
 }
