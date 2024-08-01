@@ -45,7 +45,7 @@ function buildMap() {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-  document.getElementById("game").hidden = true;
+  //document.getElementById("game").hidden = true;
   document.getElementById("map").hidden = false;
   console.log("map drawn");
 	}
