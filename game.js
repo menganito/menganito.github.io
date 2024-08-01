@@ -50,7 +50,9 @@ function buildMap() {
   console.log("map drawn");
 	}
 function game() {
-    document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
+  document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
+  buildMap();
+
   }
 //function is called from the answer button
 function getAnswer() {
@@ -72,7 +74,7 @@ function getAnswer() {
 	document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
     }
   nextQuestion++;
-  buildMap();
+  //buildMap();
   //game();
 }
 populate();
