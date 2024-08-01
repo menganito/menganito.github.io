@@ -1,6 +1,7 @@
 img#flag {
   border: 8px solid #555;
   border-radius: 18px;
+  height=180px;
 }
 
 img.incorrect {

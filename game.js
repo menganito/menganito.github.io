@@ -45,14 +45,13 @@ function buildMap() {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-  //document.getElementById("game").hidden = true;
+  document.getElementById("game").hidden = true;
   document.getElementById("map").hidden = false;
   console.log("map drawn");
 	}
 function game() {
   document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" id="flag"></img>';
-  buildMap();
-
+  //buildMap();
   }
 //function is called from the answer button
 function getAnswer() {
@@ -74,7 +73,7 @@ function getAnswer() {
 	document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
     }
   nextQuestion++;
-  //buildMap();
+  buildMap();
   //game();
 }
 populate();
