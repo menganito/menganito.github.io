@@ -47,11 +47,9 @@ function buildMap() {
 }).addTo(map);
   document.getElementById("game").hidden = true;
   document.getElementById("map").hidden = false;
-
 	}
 function game() {
     document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
-	buildMap();
   }
 //function is called from the answer button
 function getAnswer() {
