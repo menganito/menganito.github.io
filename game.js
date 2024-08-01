@@ -71,7 +71,7 @@ function getAnswer() {
 	document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
     }
   nextQuestion++;
-  drawMap();
+  buildMap();
   //game();
 }
 populate();
