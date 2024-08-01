@@ -47,7 +47,7 @@ function buildMap() {
 }).addTo(map);
   document.getElementById("game").hidden = true;
   document.getElementById("map").hidden = false;
-  console.log "map drawn";
+  console.log("map drawn");
 	}
 function game() {
     document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
