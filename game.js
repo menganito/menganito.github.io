@@ -50,7 +50,7 @@ function buildMap() {
   console.log("map drawn");
 	}
 function game() {
-  document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" height="330"></img>';
+  document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" id="flag"></img>';
   buildMap();
 
   }
