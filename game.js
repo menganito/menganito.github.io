@@ -10,7 +10,7 @@ async function populate() {
   document.getElementById("start").disabled = false;
   shuffle(countries);
 }
-//this is called by the pupulate function
+//this is called by the populate function
 function shuffle(array) {
   var m = array.length, t, i;
 
@@ -43,14 +43,14 @@ function buildMap() {
 	var map = L.map('map').setView([0, 0], 3);
 	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
   document.getElementById("game").hidden = true;
   document.getElementById("map").hidden = false;
   console.log("map drawn");
 	}
 function game() {
-  document.getElementById("flag").innerHTML = '<img src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" id="flag"></img>';
+  document.getElementById("flag").innerHTML = '<img alt="flag of the country in question" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" id="flag">';
   //buildMap();
   }
 //function is called from the answer button
@@ -66,10 +66,10 @@ function getAnswer() {
   document.getElementById("possibleScore").innerHTML = possibleScore;
   document.getElementById("topScore").innerHTML = countries.length - possibleScore;
   if (guessed === "right") {
-	let html = '<div class="correct"><img class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/></div>";
+	let html = '<div class="correct"><img alt="correctly guessed flag" class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/></div>";
     document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
         } else {
-    let html = '<div class="incorrect"><img class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + " (you guessed: " + answer + ")<br/></div>";
+    let html = '<div class="incorrect"><img alt="incorrectly guessed flag" class="incorrect" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ❌ ' + countries[nextQuestion].name + " (you guessed: " + answer + ")<br/></div>";
 	document.getElementById("score_counter").insertAdjacentHTML("afterbegin", html);
     }
   nextQuestion++;
