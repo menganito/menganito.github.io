@@ -3,13 +3,21 @@ let score = 0;
 let possibleScore = 0;
 let map = null;
 async function populate() {
-  const requestURL = "countries2.json";
-  const request = new Request(requestURL);
-  const response = await fetch(request);
-  countries = await response.json();
-  //at the beginning, the button is disabled, we can enable it now that the json is loaded.
-  document.getElementById("start").disabled = false;
-  shuffle(countries);
+  try {
+    const requestURL = "countries2.json";
+    const request = new Request(requestURL);
+    const response = await fetch(request);
+    if (!response.ok) {
+      throw new Error("Failed to load countries2.json: " + response.status + " " + response.statusText);
+    }
+    countries = await response.json();
+    //at the beginning, the button is disabled, we can enable it now that the json is loaded.
+    document.getElementById("start").disabled = false;
+    shuffle(countries);
+  } catch (e) {
+    console.error(e);
+    alert("Could not load game data: " + e.message);
+  }
 }
 //this is called by the populate function
 function shuffle(array) {
