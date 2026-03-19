@@ -1,6 +1,7 @@
 let nextQuestion = 0;
 let score = 0;
 let possibleScore = 0;
+let map = null;
 async function populate() {
   const requestURL = "countries2.json";
   const request = new Request(requestURL);
@@ -40,18 +41,23 @@ function start() {
   game();
 }
 function buildMap() {
-	var map = L.map('map').setView([0, 0], 3);
-	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
   document.getElementById("game").hidden = true;
   document.getElementById("map").hidden = false;
+
+  if (!map) {
+    map = L.map('map').setView([0, 0], 3);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+  }
+
+  map.invalidateSize();
   console.log("map drawn");
-	}
+}
 function game() {
   document.getElementById("flag").innerHTML = '<img alt="flag of the country in question" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg" id="flag">';
-  //buildMap();
+  buildMap();
   }
 //function is called from the answer button
 function getAnswer() {
