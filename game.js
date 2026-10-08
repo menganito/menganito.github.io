@@ -63,7 +63,7 @@ function start() {
   document.getElementById("intro").hidden = true;
   document.getElementById("map").hidden = true;
   document.getElementById("score").innerHTML = score;
-  document.getElementById("possibleScore").innerHTML = possibleScore;
+  document.getElementById("possibleScore").innerHTML = countries.length;
   document.getElementById("topScore").innerHTML = countries.length;
   nextQuestion = 0;
   score = 0;
@@ -109,7 +109,7 @@ function getAnswer() {
   }
   possibleScore++;
   document.getElementById("score").innerHTML = score;
-  document.getElementById("possibleScore").innerHTML = possibleScore;
+  document.getElementById("possibleScore").innerHTML = countries.length;
   document.getElementById("topScore").innerHTML = countries.length - possibleScore;
   if (guessed === "right") {
     let html = '<div class="correct"><img alt="correctly guessed flag" class="correct" src="flags-svg/' + countries[nextQuestion].code.toLowerCase() + '.svg"> ✔ ' + countries[nextQuestion].name + "<br/></div>";
