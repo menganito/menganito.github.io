@@ -20,29 +20,27 @@
 <div id="score_div" hidden>
 <div id="score_header">
 <h2>Score</h2>
-<p>Správne si odpovedal na <span id="score"></span> z <span id="possibleScore"></span> otázok. </p>
-<p>Čaká Ťa ešte <span id="topScore"></span> otázok. </p>
+<p>You answered <span id="score"></span> out of <span id="possibleScore"></span> questions. </p>
+<p>You have <span id="topScore"></span> questions remaining. </p>
 </div>
 <div id="score_counter">
-<!--<img class="incorrect" src="flags-svg/fr.svg">
-<img class="correct" src="flags-svg/sk.svg"> -->
 </div>
 </div>
 </div>
 <div class="column right">
 <div id="intro">
-<p>Ako dobre poznáš krajiny sveta? </p>
-<p>Čo všetko o nich vieš?</p>
-<p>Zisti to v tejto hre: Ku každej vlajke vpíš do políčka na odpoveď krajinu, ktorej patrí.</p>
-<p>Keď si pripravený, klikni</p>
-<button type="button" id="start" disabled onclick="start();">Štart!</button>
+<p>How well do you know the countries of the world? </p>
+<p>What do you know about them?</p>
+<p>Find out in this game: For each flag, type the name of the country it belongs to.</p>
+<p>When you're ready, click</p>
+<button type="button" id="start" disabled onclick="start();">Start!</button>
 </div>
 <div id="game" hidden>
 <div id="flag"><img alt="flag" src="flags-svg/sk.svg" >
 </div>
-<p>Ktorej krajine patrí táto vlajka?</p>
+<p>Which country does this flag belong to?</p>
 <label for="answer">Your Answer:</label>
-<input id="answer" type="text"><input onClick="getAnswer()" type="submit" value="Odpovedať">
+<input id="answer" type="text"><input onClick="getAnswer()" type="submit" value="Submit">
 </div>
 <div id="map" hidden>
 </div>
