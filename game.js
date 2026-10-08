@@ -97,4 +97,10 @@ function getAnswer() {
   game();
 }
 
+document.getElementById("answer").addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    getAnswer();
+  }
+});
+
 populate();
