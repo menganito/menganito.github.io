@@ -35,14 +35,14 @@ function shuffle(array) {
 function start() {
   // Get selected continents
   const continentCheckboxes = document.querySelectorAll('input[name="continent"]:checked');
-  const selectedContinents = Array.from(continentCheckboxes).map((cb: any) => cb.value);
+  const selectedContinents = Array.from(continentCheckboxes).map(cb => cb.value);
   
   // Get selected country count
-  const countryCountRadio = document.querySelector('input[name="countryCount"]:checked') as HTMLInputElement;
+  const countryCountRadio = document.querySelector('input[name="countryCount"]:checked');
   const countryCount = countryCountRadio ? countryCountRadio.value : 'all';
   
   // Filter countries by selected continents
-  countries = allCountries.filter((country: any) => 
+  countries = allCountries.filter(country => 
     selectedContinents.includes(country.continent)
   );
   
