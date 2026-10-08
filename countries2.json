@@ -1,202 +1,1202 @@
 [
-    {"nazov": "Afganistan","name": "Afghanistan", "code": "AF"},
-    {"nazov": "Albánsko","name": "Albania", "code": "AL"},
-    {"nazov": "Alžírsko","name": "Algeria", "code": "DZ"},
-    {"nazov": "Andorra","name": "Andorra", "code": "AD"},
-    {"nazov": "Angola","name": "Angola", "code": "AO"},
-    {"nazov": "Antarktída","name": "Antarctica", "code": "AQ"},
-    {"nazov": "Antigua a Barbuda","name": "Antigua and Barbuda", "code": "AG"},
-    {"nazov": "Argentína","name": "Argentina", "code": "AR"},
-    {"nazov": "Arménsko","name": "Armenia", "code": "AM"},
-    {"nazov": "Austrála","name": "Australia", "code": "AU"},
-    {"nazov": "Rakúsko","name": "Austria", "code": "AT"},
-    {"nazov": "Azerbajdžan","name": "Azerbaijan", "code": "AZ"},
-    {"nazov": "Bahamy","name": "Bahamas", "code": "BS"},
-    {"nazov": "Bahrajn","name": "Bahrain", "code": "BH"},
-    {"nazov": "Bangladéš","name": "Bangladesh", "code": "BD"},
-    {"nazov": "Barbados","name": "Barbados", "code": "BB"},
-    {"nazov": "Bielorusko","name": "Belarus", "code": "BY"},
-    {"nazov": "Belgicko","name": "Belgium", "code": "BE"},
-    {"nazov": "Belize","name": "Belize", "code": "BZ"},
-    {"nazov": "Benin","name": "Benin", "code": "BJ"},
-    {"nazov": "Bhután","name": "Bhutan", "code": "BT"},
-    {"nazov": "Bolívia","name": "Bolivia", "code": "BO"},
-    {"nazov": "Bosna a Hercegovina","name": "Bosnia and Herzegovina", "code": "BA"},
-    {"nazov": "Botswana","name": "Botswana", "code": "BW"},
-    {"nazov": "Brazília","name": "Brazil", "code": "BR"},
-    {"nazov": "Brunej","name": "Brunei Darussalam", "code": "BN"},
-    {"nazov": "Bulharsko","name": "Bulgaria", "code": "BG"},
-    {"nazov": "Burkina Faso","name": "Burkina Faso", "code": "BF"},
-    {"nazov": "Burundi","name": "Burundi", "code": "BI"},
-    {"nazov": "Kambodža","name": "Cambodia", "code": "KH"},
-    {"nazov": "Kamerun","name": "Cameroon", "code": "CM"},
-    {"nazov": "Kanada","name": "Canada", "code": "CA"},
-    {"nazov": "Kapverdy","name": "Cabo Verde", "code": "CV"},
-    {"nazov": "Stredoafrická republika","name": "Central African Republic", "code": "CF"},
-    {"nazov": "Čad","name": "Chad", "code": "TD"},
-    {"nazov": "Čile","name": "Chile", "code": "CL"},
-    {"nazov": "Čína","name": "China", "code": "CN"},
-    {"nazov": "Kolumbia","name": "Colombia", "code": "CO"},
-    {"nazov": "Komory","name": "Comoros", "code": "KM"},
-    {"nazov": "Kongo","name": "Congo", "code": "CG"},
-    {"nazov": "Konžská demokratická republika","name": "The Democratic Republic of the Congo", "code": "CD"},
-    {"nazov": "Kostarika","name": "Costa Rica", "code": "CR"},
-    {"nazov": "Pobrežie Slonoviny","name": "Ivory Coast", "code": "CI"},
-    {"nazov": "Chorvátsko","name": "Croatia", "code": "HR"},
-    {"nazov": "Kuba","name": "Cuba", "code": "CU"},
-    {"nazov": "Cyprus","name": "Cyprus", "code": "CY"},
-    {"nazov": "Česko","name": "Czechia", "code": "CZ"},
-    {"nazov": "Dánsko","name": "Denmark", "code": "DK"},
-    {"nazov": "Džibutsko","name": "Djibouti", "code": "DJ"},
-    {"nazov": "Dominika","name": "Dominica", "code": "DM"},
-    {"nazov": "Dominikánska republika","name": "Dominican Republic", "code": "DO"},
-    {"nazov": "Ekvádor","name": "Ecuador", "code": "EC"},
-    {"nazov": "Egypt","name": "Egypt", "code": "EG"},
-    {"nazov": "Salvádor","name": "El Salvador", "code": "SV"},
-    {"nazov": "Rovníková Guinea","name": "Equatorial Guinea", "code": "GQ"},
-    {"nazov": "Eritrea","name": "Eritrea", "code": "ER"},
-    {"nazov": "Estónsko","name": "Estonia", "code": "EE"},
-    {"nazov": "Eswatini","name": "Eswatini", "code": "SZ"},
-    {"nazov": "Etiópia","name": "Ethiopia", "code": "ET"},
-    {"nazov": "Fidži","name": "Fiji", "code": "FJ"},
-    {"nazov": "Fínsko","name": "Finland", "code": "FI"},
-    {"nazov": "Francúzsko","name": "France", "code": "FR"},
-    {"nazov": "Gabon","name": "Gabon", "code": "GA"},
-    {"nazov": "Gambia","name": "Gambia", "code": "GM"},
-    {"nazov": "Gruzínsko","name": "Georgia", "code": "GE"},
-    {"nazov": "Nemecko","name": "Germany", "code": "DE"},
-    {"nazov": "Ghana","name": "Ghana", "code": "GH"},
-    {"nazov": "Grécko","name": "Greece", "code": "GR"},
-    {"nazov": "Grónsko","name": "Greenland", "code": "GL"},
-    {"nazov": "Grenada","name": "Grenada", "code": "GD"},
-    {"nazov": "Guatemala","name": "Guatemala", "code": "GT"},
-    {"nazov": "Guinea","name": "Guinea", "code": "GN"},
-    {"nazov": "Guinea-Bissau","name": "Guinea-Bissau", "code": "GW"},
-    {"nazov": "Guyana","name": "Guyana", "code": "GY"},
-    {"nazov": "Haiti","name": "Haiti", "code": "HT"},
-    {"nazov": "Vatican","name": "Vatican", "code": "VA"},
-    {"nazov": "Honduras","name": "Honduras", "code": "HN"},
-    {"nazov": "Maďarsko","name": "Hungary", "code": "HU"},
-    {"nazov": "Island","name": "Iceland", "code": "IS"},
-    {"nazov": "India","name": "India", "code": "IN"},
-    {"nazov": "Indonézia","name": "Indonesia", "code": "ID"},
-    {"nazov": "Irán","name": "Iran", "code": "IR"},
-    {"nazov": "Irak","name": "Iraq", "code": "IQ"},
-    {"nazov": "Írsko","name": "Ireland", "code": "IE"},
-    {"nazov": "Izrael","name": "Israel", "code": "IL"},
-    {"nazov": "Talianko","name": "Italy", "code": "IT"},
-    {"nazov": "Jamajka","name": "Jamaica", "code": "JM"},
-    {"nazov": "Japonsko","name": "Japan", "code": "JP"},
-    {"nazov": "Jordánsko","name": "Jordan", "code": "JO"},
-    {"nazov": "Kazachstan","name": "Kazakhstan", "code": "KZ"},
-    {"nazov": "Keňa","name": "Kenya", "code": "KE"},
-    {"nazov": "Kiribati","name": "Kiribati", "code": "KI"},
-    {"nazov": "Kórejská ľudovodemokratická republika","name": "North Korea", "code": "KP"},
-    {"nazov": "Kórejská republika","name": "South Korea", "code": "KR"},
-    {"nazov": "Kuvajt","name": "Kuwait", "code": "KW"},
-    {"nazov": "Kirgizsko","name": "Kyrgyzstan", "code": "KG"},
-    {"nazov": "Laos","name": "Laos", "code": "LA"},
-    {"nazov": "Lotyšsko","name": "Latvia", "code": "LV"},
-    {"nazov": "Libanon","name": "Lebanon", "code": "LB"},
-    {"nazov": "Lesotho","name": "Lesotho", "code": "LS"},
-    {"nazov": "Libéria","name": "Liberia", "code": "LR"},
-    {"nazov": "Líbya","name": "Libyan Arab Jamahiriya", "code": "LY"},
-    {"nazov": "Lichtenštajnsko","name": "Liechtenstein", "code": "LI"},
-    {"nazov": "Litva","name": "Lithuania", "code": "LT"},
-    {"nazov": "Luxembursko","name": "Luxembourg", "code": "LU"},
-    {"nazov": "Severné Macedónsko","name": "North Macedonia", "code": "MK"},
-    {"nazov": "Madagaskar","name": "Madagascar", "code": "MG"},
-    {"nazov": "Malawi","name": "Malawi", "code": "MW"},
-    {"nazov": "Malajzia","name": "Malaysia", "code": "MY"},
-    {"nazov": "Maldivy","name": "Maldives", "code": "MV"},
-    {"nazov": "Mali","name": "Mali", "code": "ML"},
-    {"nazov": "Malta","name": "Malta", "code": "MT"},
-    {"nazov": "Marshallove ostrovy","name": "Marshall Islands", "code": "MH"},
-    {"nazov": "Mauritánia","name": "Mauritania", "code": "MR"},
-    {"nazov": "Maurícius","name": "Mauritius", "code": "MU"},
-    {"nazov": "Mexiko","name": "Mexico", "code": "MX"},
-    {"nazov": "Mikronézia ","name": "Federated States of Micronesia", "code": "FM"},
-    {"nazov": "Moldavsko","name": "Moldova", "code": "MD"},
-    {"nazov": "Monako","name": "Monaco", "code": "MC"},
-    {"nazov": "Mongolsko","name": "Mongolia", "code": "MN"},
-    {"nazov": "Maroko","name": "Morocco", "code": "MA"},
-    {"nazov": "Mozambik","name": "Mozambique", "code": "MZ"},
-    {"nazov": "Mjanmarsko","name": "Myanmar", "code": "MM"},
-    {"nazov": "Namíbia","name": "Namibia", "code": "NA"},
-    {"nazov": "Nauru","name": "Nauru", "code": "NR"},
-    {"nazov": "Nepál","name": "Nepal", "code": "NP"},
-    {"nazov": "Holandsko","name": "Netherlands", "code": "NL"},
-    {"nazov": "Nový Zéland","name": "New Zealand", "code": "NZ"},
-    {"nazov": "Nikaragua","name": "Nicaragua", "code": "NI"},
-    {"nazov": "Niger","name": "Niger", "code": "NE"},
-    {"nazov": "Nigéria","name": "Nigeria", "code": "NG"},
-    {"nazov": "Nórsko","name": "Norway", "code": "NO"},
-    {"nazov": "Omán","name": "Oman", "code": "OM"},
-    {"nazov": "Pakistan","name": "Pakistan", "code": "PK"},
-    {"nazov": "Palau","name": "Palau", "code": "PW"},
-    {"nazov": "Palestína","name": "State of Palestine", "code": "PS"},
-    {"nazov": "Panama","name": "Panama", "code": "PA"},
-    {"nazov": "Papua-Nová Guinea","name": "Papua New Guinea", "code": "PG"},
-    {"nazov": "Paraguaj","name": "Paraguay", "code": "PY"},
-    {"nazov": "Peru","name": "Peru", "code": "PE"},
-    {"nazov": "Filipíny","name": "Philippines", "code": "PH"},
-    {"nazov": "Poľsko","name": "Poland", "code": "PL"},
-    {"nazov": "Portugalsko","name": "Portugal", "code": "PT"},
-    {"nazov": "Katar","name": "Qatar", "code": "QA"},
-    {"nazov": "Rumunsko","name": "Romania", "code": "RO"},
-    {"nazov": "Rusko","name": "Russia", "code": "RU"},
-    {"nazov": "Rwanda","name": "Rwanda", "code": "RW"},
-    {"nazov": "Svätý Krištof a Nevis","name": "Saint Kitts and Nevis", "code": "KN"},
-    {"nazov": "Svätá Lucia","name": "Saint Lucia", "code": "LC"},
-    {"nazov": "Svätý Vincent a Grenadíny","name": "Saint Vincent and the Grenadines", "code": "VC"},
-    {"nazov": "Samoa","name": "Samoa", "code": "WS"},
-    {"nazov": "San Maríno","name": "San Marino", "code": "SM"},
-    {"nazov": "Svätý Tomáš a Princov ostrov","name": "Sao Tome and Principe", "code": "ST"},
-    {"nazov": "Saudská Arábia","name": "Saudi Arabia", "code": "SA"},
-    {"nazov": "Senegal","name": "Senegal", "code": "SN"},
-    {"nazov": "Srbsko","name": "Serbia", "code": "RS"},
-    {"nazov": "Čierna Hora","name": "Montenegro", "code": "ME"},
-	{"nazov": "Seychely","name": "Seychelles", "code": "SC"},
-    {"nazov": "Sierra Leone","name": "Sierra Leone", "code": "SL"},
-    {"nazov": "Sinagapur","name": "Singapore", "code": "SG"},
-    {"nazov": "Slovensko","name": "Slovakia", "code": "SK"},
-    {"nazov": "Slovinsko","name": "Slovenia", "code": "SI"},
-    {"nazov": "Šalamúnove ostrovy","name": "Solomon Islands", "code": "SB"},
-    {"nazov": "Somálsko","name": "Somalia", "code": "SO"},
-    {"nazov": "Južná Afrika","name": "South Africa", "code": "ZA"},
-    {"nazov": "Španielsko","name": "Spain", "code": "ES"},
-    {"nazov": "Srí Lanka","name": "Sri Lanka", "code": "LK"},
-    {"nazov": "Sudán","name": "Sudan", "code": "SD"},
-    {"nazov": "Južný Sudán","name": "South Sudan", "code": "SS"},
-    {"nazov": "Surinam","name": "Suriname", "code": "SR"},
-    {"nazov": "Eswatini","name": "Eswatini", "code": "SZ"},
-    {"nazov": "Švédsko","name": "Sweden", "code": "SE"},
-    {"nazov": "Švajčiarsko","name": "Switzerland", "code": "CH"},
-    {"nazov": "Sýria","name": "Syria", "code": "SY"},
-    {"nazov": "Taiwan","name": "Taiwan", "code": "TW"},
-    {"nazov": "Tadžikistan","name": "Tajikistan", "code": "TJ"},
-    {"nazov": "Tanzánia","name": "Tanzania", "code": "TZ"},
-    {"nazov": "Thajsko","name": "Thailand", "code": "TH"},
-    {"nazov": "Východný Timor","name": "East Timor", "code": "TL"},
-    {"nazov": "Togo","name": "Togo", "code": "TG"},
-    {"nazov": "Tonga","name": "Tonga", "code": "TO"},
-    {"nazov": "Trinidad a Tobago","name": "Trinidad and Tobago", "code": "TT"},
-    {"nazov": "Tunisko","name": "Tunisia", "code": "TN"},
-    {"nazov": "Turecko","name": "Turkey", "code": "TR"},
-    {"nazov": "Turkménsko","name": "Turkmenistan", "code": "TM"},
-    {"nazov": "Tuvalu","name": "Tuvalu", "code": "TV"},
-    {"nazov": "Uganda","name": "Uganda", "code": "UG"},
-    {"nazov": "Ukrajina","name": "Ukraine", "code": "UA"},
-    {"nazov": "Spojené arabské emiráty","name": "United Arab Emirates", "code": "AE"},
-    {"nazov": "Spojené kráľovstvo","name": "United Kingdom", "code": "GB"},
-    {"nazov": "Spojené štáty","name": "United States", "code": "US"},
-    {"nazov": "Uruguaj","name": "Uruguay", "code": "UY"},
-    {"nazov": "Uzbekistan","name": "Uzbekistan", "code": "UZ"},
-    {"nazov": "Vanuatu","name": "Vanuatu", "code": "VU"},
-    {"nazov": "Venezuela","name": "Venezuela", "code": "VE"},
-    {"nazov": "Vietnam","name": "Viet Nam", "code": "VN"},
-    {"nazov": "Jemen","name": "Yemen", "code": "YE"},
-    {"nazov": "Zambia","name": "Zambia", "code": "ZM"},
-    {"nazov": "Zimbabwe","name": "Zimbabwe", "code": "ZW"},
-    {"nazov": "Kosovo","name": "Kosovo", "code": "XK"}
+    {
+        "nazov": "Afganistan",
+        "name": "Afghanistan",
+        "code": "AF",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Albánsko",
+        "name": "Albania",
+        "code": "AL",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Alžírsko",
+        "name": "Algeria",
+        "code": "DZ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Andorra",
+        "name": "Andorra",
+        "code": "AD",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Angola",
+        "name": "Angola",
+        "code": "AO",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Antarktída",
+        "name": "Antarctica",
+        "code": "AQ",
+        "continent": "Antarctica"
+    },
+    {
+        "nazov": "Antigua a Barbuda",
+        "name": "Antigua and Barbuda",
+        "code": "AG",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Argentína",
+        "name": "Argentina",
+        "code": "AR",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Arménsko",
+        "name": "Armenia",
+        "code": "AM",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Austrála",
+        "name": "Australia",
+        "code": "AU",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Rakúsko",
+        "name": "Austria",
+        "code": "AT",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Azerbajdžan",
+        "name": "Azerbaijan",
+        "code": "AZ",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Bahamy",
+        "name": "Bahamas",
+        "code": "BS",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Bahrajn",
+        "name": "Bahrain",
+        "code": "BH",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Bangladéš",
+        "name": "Bangladesh",
+        "code": "BD",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Barbados",
+        "name": "Barbados",
+        "code": "BB",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Bielorusko",
+        "name": "Belarus",
+        "code": "BY",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Belgicko",
+        "name": "Belgium",
+        "code": "BE",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Belize",
+        "name": "Belize",
+        "code": "BZ",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Benin",
+        "name": "Benin",
+        "code": "BJ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Bhután",
+        "name": "Bhutan",
+        "code": "BT",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Bolívia",
+        "name": "Bolivia",
+        "code": "BO",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Bosna a Hercegovina",
+        "name": "Bosnia and Herzegovina",
+        "code": "BA",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Botswana",
+        "name": "Botswana",
+        "code": "BW",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Brazília",
+        "name": "Brazil",
+        "code": "BR",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Brunej",
+        "name": "Brunei Darussalam",
+        "code": "BN",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Bulharsko",
+        "name": "Bulgaria",
+        "code": "BG",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Burkina Faso",
+        "name": "Burkina Faso",
+        "code": "BF",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Burundi",
+        "name": "Burundi",
+        "code": "BI",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Kambodža",
+        "name": "Cambodia",
+        "code": "KH",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Kamerun",
+        "name": "Cameroon",
+        "code": "CM",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Kanada",
+        "name": "Canada",
+        "code": "CA",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Kapverdy",
+        "name": "Cabo Verde",
+        "code": "CV",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Stredoafrická republika",
+        "name": "Central African Republic",
+        "code": "CF",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Čad",
+        "name": "Chad",
+        "code": "TD",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Čile",
+        "name": "Chile",
+        "code": "CL",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Čína",
+        "name": "China",
+        "code": "CN",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Kolumbia",
+        "name": "Colombia",
+        "code": "CO",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Komory",
+        "name": "Comoros",
+        "code": "KM",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Kongo",
+        "name": "Congo",
+        "code": "CG",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Konžská demokratická republika",
+        "name": "The Democratic Republic of the Congo",
+        "code": "CD",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Kostarika",
+        "name": "Costa Rica",
+        "code": "CR",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Pobrežie Slonoviny",
+        "name": "Ivory Coast",
+        "code": "CI",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Chorvátsko",
+        "name": "Croatia",
+        "code": "HR",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Kuba",
+        "name": "Cuba",
+        "code": "CU",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Cyprus",
+        "name": "Cyprus",
+        "code": "CY",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Česko",
+        "name": "Czechia",
+        "code": "CZ",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Dánsko",
+        "name": "Denmark",
+        "code": "DK",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Džibutsko",
+        "name": "Djibouti",
+        "code": "DJ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Dominika",
+        "name": "Dominica",
+        "code": "DM",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Dominikánska republika",
+        "name": "Dominican Republic",
+        "code": "DO",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Ekvádor",
+        "name": "Ecuador",
+        "code": "EC",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Egypt",
+        "name": "Egypt",
+        "code": "EG",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Salvádor",
+        "name": "El Salvador",
+        "code": "SV",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Rovníková Guinea",
+        "name": "Equatorial Guinea",
+        "code": "GQ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Eritrea",
+        "name": "Eritrea",
+        "code": "ER",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Estónsko",
+        "name": "Estonia",
+        "code": "EE",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Eswatini",
+        "name": "Eswatini",
+        "code": "SZ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Etiópia",
+        "name": "Ethiopia",
+        "code": "ET",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Fidži",
+        "name": "Fiji",
+        "code": "FJ",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Fínsko",
+        "name": "Finland",
+        "code": "FI",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Francúzsko",
+        "name": "France",
+        "code": "FR",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Gabon",
+        "name": "Gabon",
+        "code": "GA",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Gambia",
+        "name": "Gambia",
+        "code": "GM",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Gruzínsko",
+        "name": "Georgia",
+        "code": "GE",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Nemecko",
+        "name": "Germany",
+        "code": "DE",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Ghana",
+        "name": "Ghana",
+        "code": "GH",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Grécko",
+        "name": "Greece",
+        "code": "GR",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Grónsko",
+        "name": "Greenland",
+        "code": "GL",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Grenada",
+        "name": "Grenada",
+        "code": "GD",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Guatemala",
+        "name": "Guatemala",
+        "code": "GT",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Guinea",
+        "name": "Guinea",
+        "code": "GN",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Guinea-Bissau",
+        "name": "Guinea-Bissau",
+        "code": "GW",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Guyana",
+        "name": "Guyana",
+        "code": "GY",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Haiti",
+        "name": "Haiti",
+        "code": "HT",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Vatican",
+        "name": "Vatican",
+        "code": "VA",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Honduras",
+        "name": "Honduras",
+        "code": "HN",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Maďarsko",
+        "name": "Hungary",
+        "code": "HU",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Island",
+        "name": "Iceland",
+        "code": "IS",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "India",
+        "name": "India",
+        "code": "IN",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Indonézia",
+        "name": "Indonesia",
+        "code": "ID",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Irán",
+        "name": "Iran",
+        "code": "IR",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Irak",
+        "name": "Iraq",
+        "code": "IQ",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Írsko",
+        "name": "Ireland",
+        "code": "IE",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Izrael",
+        "name": "Israel",
+        "code": "IL",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Talianko",
+        "name": "Italy",
+        "code": "IT",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Jamajka",
+        "name": "Jamaica",
+        "code": "JM",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Japonsko",
+        "name": "Japan",
+        "code": "JP",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Jordánsko",
+        "name": "Jordan",
+        "code": "JO",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Kazachstan",
+        "name": "Kazakhstan",
+        "code": "KZ",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Keňa",
+        "name": "Kenya",
+        "code": "KE",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Kiribati",
+        "name": "Kiribati",
+        "code": "KI",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Kórejská ľudovodemokratická republika",
+        "name": "North Korea",
+        "code": "KP",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Kórejská republika",
+        "name": "South Korea",
+        "code": "KR",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Kuvajt",
+        "name": "Kuwait",
+        "code": "KW",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Kirgizsko",
+        "name": "Kyrgyzstan",
+        "code": "KG",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Laos",
+        "name": "Laos",
+        "code": "LA",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Lotyšsko",
+        "name": "Latvia",
+        "code": "LV",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Libanon",
+        "name": "Lebanon",
+        "code": "LB",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Lesotho",
+        "name": "Lesotho",
+        "code": "LS",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Libéria",
+        "name": "Liberia",
+        "code": "LR",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Líbya",
+        "name": "Libyan Arab Jamahiriya",
+        "code": "LY",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Lichtenštajnsko",
+        "name": "Liechtenstein",
+        "code": "LI",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Litva",
+        "name": "Lithuania",
+        "code": "LT",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Luxembursko",
+        "name": "Luxembourg",
+        "code": "LU",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Severné Macedónsko",
+        "name": "North Macedonia",
+        "code": "MK",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Madagaskar",
+        "name": "Madagascar",
+        "code": "MG",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Malawi",
+        "name": "Malawi",
+        "code": "MW",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Malajzia",
+        "name": "Malaysia",
+        "code": "MY",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Maldivy",
+        "name": "Maldives",
+        "code": "MV",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Mali",
+        "name": "Mali",
+        "code": "ML",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Malta",
+        "name": "Malta",
+        "code": "MT",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Marshallove ostrovy",
+        "name": "Marshall Islands",
+        "code": "MH",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Mauritánia",
+        "name": "Mauritania",
+        "code": "MR",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Maurícius",
+        "name": "Mauritius",
+        "code": "MU",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Mexiko",
+        "name": "Mexico",
+        "code": "MX",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Mikronézia ",
+        "name": "Federated States of Micronesia",
+        "code": "FM",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Moldavsko",
+        "name": "Moldova",
+        "code": "MD",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Monako",
+        "name": "Monaco",
+        "code": "MC",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Mongolsko",
+        "name": "Mongolia",
+        "code": "MN",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Maroko",
+        "name": "Morocco",
+        "code": "MA",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Mozambik",
+        "name": "Mozambique",
+        "code": "MZ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Mjanmarsko",
+        "name": "Myanmar",
+        "code": "MM",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Namíbia",
+        "name": "Namibia",
+        "code": "NA",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Nauru",
+        "name": "Nauru",
+        "code": "NR",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Nepál",
+        "name": "Nepal",
+        "code": "NP",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Holandsko",
+        "name": "Netherlands",
+        "code": "NL",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Nový Zéland",
+        "name": "New Zealand",
+        "code": "NZ",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Nikaragua",
+        "name": "Nicaragua",
+        "code": "NI",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Niger",
+        "name": "Niger",
+        "code": "NE",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Nigéria",
+        "name": "Nigeria",
+        "code": "NG",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Nórsko",
+        "name": "Norway",
+        "code": "NO",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Omán",
+        "name": "Oman",
+        "code": "OM",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Pakistan",
+        "name": "Pakistan",
+        "code": "PK",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Palau",
+        "name": "Palau",
+        "code": "PW",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Palestína",
+        "name": "State of Palestine",
+        "code": "PS",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Panama",
+        "name": "Panama",
+        "code": "PA",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Papua-Nová Guinea",
+        "name": "Papua New Guinea",
+        "code": "PG",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Paraguaj",
+        "name": "Paraguay",
+        "code": "PY",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Peru",
+        "name": "Peru",
+        "code": "PE",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Filipíny",
+        "name": "Philippines",
+        "code": "PH",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Poľsko",
+        "name": "Poland",
+        "code": "PL",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Portugalsko",
+        "name": "Portugal",
+        "code": "PT",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Katar",
+        "name": "Qatar",
+        "code": "QA",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Rumunsko",
+        "name": "Romania",
+        "code": "RO",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Rusko",
+        "name": "Russia",
+        "code": "RU",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Rwanda",
+        "name": "Rwanda",
+        "code": "RW",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Svätý Krištof a Nevis",
+        "name": "Saint Kitts and Nevis",
+        "code": "KN",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Svätá Lucia",
+        "name": "Saint Lucia",
+        "code": "LC",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Svätý Vincent a Grenadíny",
+        "name": "Saint Vincent and the Grenadines",
+        "code": "VC",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Samoa",
+        "name": "Samoa",
+        "code": "WS",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "San Maríno",
+        "name": "San Marino",
+        "code": "SM",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Svätý Tomáš a Princov ostrov",
+        "name": "Sao Tome and Principe",
+        "code": "ST",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Saudská Arábia",
+        "name": "Saudi Arabia",
+        "code": "SA",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Senegal",
+        "name": "Senegal",
+        "code": "SN",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Srbsko",
+        "name": "Serbia",
+        "code": "RS",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Čierna Hora",
+        "name": "Montenegro",
+        "code": "ME",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Seychely",
+        "name": "Seychelles",
+        "code": "SC",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Sierra Leone",
+        "name": "Sierra Leone",
+        "code": "SL",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Sinagapur",
+        "name": "Singapore",
+        "code": "SG",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Slovensko",
+        "name": "Slovakia",
+        "code": "SK",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Slovinsko",
+        "name": "Slovenia",
+        "code": "SI",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Šalamúnove ostrovy",
+        "name": "Solomon Islands",
+        "code": "SB",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Somálsko",
+        "name": "Somalia",
+        "code": "SO",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Južná Afrika",
+        "name": "South Africa",
+        "code": "ZA",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Španielsko",
+        "name": "Spain",
+        "code": "ES",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Srí Lanka",
+        "name": "Sri Lanka",
+        "code": "LK",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Sudán",
+        "name": "Sudan",
+        "code": "SD",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Južný Sudán",
+        "name": "South Sudan",
+        "code": "SS",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Surinam",
+        "name": "Suriname",
+        "code": "SR",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Eswatini",
+        "name": "Eswatini",
+        "code": "SZ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Švédsko",
+        "name": "Sweden",
+        "code": "SE",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Švajčiarsko",
+        "name": "Switzerland",
+        "code": "CH",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Sýria",
+        "name": "Syria",
+        "code": "SY",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Taiwan",
+        "name": "Taiwan",
+        "code": "TW",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Tadžikistan",
+        "name": "Tajikistan",
+        "code": "TJ",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Tanzánia",
+        "name": "Tanzania",
+        "code": "TZ",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Thajsko",
+        "name": "Thailand",
+        "code": "TH",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Východný Timor",
+        "name": "East Timor",
+        "code": "TL",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Togo",
+        "name": "Togo",
+        "code": "TG",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Tonga",
+        "name": "Tonga",
+        "code": "TO",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Trinidad a Tobago",
+        "name": "Trinidad and Tobago",
+        "code": "TT",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Tunisko",
+        "name": "Tunisia",
+        "code": "TN",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Turecko",
+        "name": "Turkey",
+        "code": "TR",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Turkménsko",
+        "name": "Turkmenistan",
+        "code": "TM",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Tuvalu",
+        "name": "Tuvalu",
+        "code": "TV",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Uganda",
+        "name": "Uganda",
+        "code": "UG",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Ukrajina",
+        "name": "Ukraine",
+        "code": "UA",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Spojené arabské emiráty",
+        "name": "United Arab Emirates",
+        "code": "AE",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Spojené kráľovstvo",
+        "name": "United Kingdom",
+        "code": "GB",
+        "continent": "Europe"
+    },
+    {
+        "nazov": "Spojené štáty",
+        "name": "United States",
+        "code": "US",
+        "continent": "North America"
+    },
+    {
+        "nazov": "Uruguaj",
+        "name": "Uruguay",
+        "code": "UY",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Uzbekistan",
+        "name": "Uzbekistan",
+        "code": "UZ",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Vanuatu",
+        "name": "Vanuatu",
+        "code": "VU",
+        "continent": "Oceania"
+    },
+    {
+        "nazov": "Venezuela",
+        "name": "Venezuela",
+        "code": "VE",
+        "continent": "South America"
+    },
+    {
+        "nazov": "Vietnam",
+        "name": "Viet Nam",
+        "code": "VN",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Jemen",
+        "name": "Yemen",
+        "code": "YE",
+        "continent": "Asia"
+    },
+    {
+        "nazov": "Zambia",
+        "name": "Zambia",
+        "code": "ZM",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Zimbabwe",
+        "name": "Zimbabwe",
+        "code": "ZW",
+        "continent": "Africa"
+    },
+    {
+        "nazov": "Kosovo",
+        "name": "Kosovo",
+        "code": "XK",
+        "continent": "Europe"
+    }
 ]

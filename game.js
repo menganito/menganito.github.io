@@ -3,6 +3,7 @@ let score = 0;
 let possibleScore = 0;
 let map = null;
 let countries = [];
+let allCountries = [];
 
 async function populate() {
   try {
@@ -12,9 +13,8 @@ async function populate() {
     if (!response.ok) {
       throw new Error("Failed to load countries2.json: " + response.status + " " + response.statusText);
     }
-    countries = await response.json();
+    allCountries = await response.json();
     document.getElementById("start").disabled = false;
-    shuffle(countries);
   } catch (e) {
     console.error(e);
     alert("Could not load game data: " + e.message);
@@ -33,6 +33,31 @@ function shuffle(array) {
 }
 
 function start() {
+  // Get selected continents
+  const continentCheckboxes = document.querySelectorAll('input[name="continent"]:checked');
+  const selectedContinents = Array.from(continentCheckboxes).map((cb: any) => cb.value);
+  
+  // Get selected country count
+  const countryCountRadio = document.querySelector('input[name="countryCount"]:checked') as HTMLInputElement;
+  const countryCount = countryCountRadio ? countryCountRadio.value : 'all';
+  
+  // Filter countries by selected continents
+  countries = allCountries.filter((country: any) => 
+    selectedContinents.includes(country.continent)
+  );
+  
+  // If 50 or 100 random countries selected, shuffle and take that many
+  if (countryCount === '50' && countries.length > 50) {
+    shuffle(countries);
+    countries = countries.slice(0, 50);
+  } else if (countryCount === '100' && countries.length > 100) {
+    shuffle(countries);
+    countries = countries.slice(0, 100);
+  } else {
+    shuffle(countries);
+  }
+  
+  // Reset game state
   document.getElementById("score_div").hidden = false;
   document.getElementById("game").hidden = false;
   document.getElementById("intro").hidden = true;
